@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* allow it to grow and fill space between header and footer */
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+  background-color: #f0f0f0; /* just for visibility */
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #e0e0e0; /* just for visibility */
+}
