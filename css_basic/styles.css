@@ -1,6 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: #fefefe;
+  color: #222;
 }
 
 main {
@@ -12,11 +14,35 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
-  background-color: #f0f0f0; /* just for visibility */
+ background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
   background-color: #e0e0e0; /* just for visibility */
+}
+article h1, article h2, article h3 {
+  font-family: "Georgia", serif;
+  color: #004aad;
+}
+
+article p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+}
+.logo {
+  font-size: 2rem;
+  padding-right: 10px;
 }
