@@ -422,4 +422,62 @@ margin-left:12%;
 margin-right:15%;
 }
 
+@media (max-width: 1024px) {
+  .hero-text {
+    font-size: 5rem;
+  }
+}
 
+@media (max-width: 768px) {
+  .site-header,
+  .main-part,
+  .part-3-free-membership,
+  .part-5-footer,
+  .row-block,
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-text {
+    font-size: 3rem;
+  }
+
+  .three-words {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .card-container,
+  .tutorials,
+  .row-block {
+    grid-template-columns: 1fr !important;
+  }
+
+  .membership-1 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .three-words {
+    font-size: 0.875rem;
+  }
+
+  button {
+    width: 100%;
+    font-size: 0.875rem;
+  }
+}
